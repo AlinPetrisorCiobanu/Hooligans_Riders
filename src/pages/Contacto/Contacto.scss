@@ -1,0 +1,14 @@
+.container_div_contact{
+    justify-content: center;
+    height: 80vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+    text-align: center;
+    margin-top: 10vh;
+    .div_contact{
+        padding: 10vh;
+    }
+}

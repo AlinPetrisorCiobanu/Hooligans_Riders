@@ -1,0 +1,21 @@
+.login_container {
+  text-align: center;
+  font-size: 1.8rem;
+  border: 1px solid;
+  padding: 60px;
+  border-radius: 25px;
+
+  .input_custom {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    border-bottom: 4px dashed var(--input-color);
+  }
+  .input_custom:focus{
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 4px dashed var(--input-color);
+  }
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root{
+    /*background*/
+    --background-color:rgb(51, 51, 51);
+    
+    /*fonts*/
+    --foont-rubik :'Lobster', sans-serif;
+
+    /*colors*/
+    --foont-color:rgb(0, 170, 255);
+    --nav-bar-foont-color:rgb(51, 90, 244);
+    --error-color:rgb(173, 49, 33);
+    --input-color:rgb(0, 174, 255);
+    --background-color-nav:rgba(0, 0, 0, 0.147);
+
+    /*height-content*/
+    --height-main-pages:100vh;
+
+}
+
+@import url('../../../node_modules/bootstrap/scss/bootstrap.scss');

@@ -1,0 +1,51 @@
+.register_container {
+  width: 70vw;
+  text-align: center;
+  font-size: 1.8rem;
+  justify-content: center;
+  border: 1px solid;
+  padding: 60px;
+  border-radius: 25px;
+  .input_options {
+    min-width: 15vw;
+  }
+  .input_custom,
+  .errors {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+  }
+
+  .input_custom{
+    border-bottom: 4px dashed var(--input-color);
+  }
+  .errors{
+    border-bottom: 4px dashed var(--error-color);
+  }
+  .input_custom:focus,
+  .errors:focus {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 4px dashed var(--input-color);
+  }
+  .errors:focus{
+    border-bottom: 4px dashed var(--error-color);
+  }
+  .date_picker_custom{
+    background-color: transparent;
+    border: 0px solid;
+    font-family: var(--foont-rubik);
+  }
+  .date_picker_color{
+    color: var(--foont-color);
+  }
+  .date_picker_error{
+    color: var(--error-color);
+  }
+  .date_picker_custom:focus-visible {
+    border: 0px solid;
+    outline: none;
+  }
+}

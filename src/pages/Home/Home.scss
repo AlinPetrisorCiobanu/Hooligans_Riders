@@ -1,0 +1,38 @@
+.container-background-home{
+    background-image: url('../../img/home/img_home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    .container-background-black{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.573);
+        z-index: 0;
+    }
+    .container-home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1;
+        overflow: scroll;
+        height: 80vh;
+        h1{
+            font-size: 7vw;
+        }
+        .button_custom{
+            font-size:2.2vw;
+        }
+    }
+}

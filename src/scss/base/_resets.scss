@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+.Container_div_Principal{
+  min-height: var(--height-main-pages);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

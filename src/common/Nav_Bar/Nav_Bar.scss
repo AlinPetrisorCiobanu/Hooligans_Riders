@@ -1,0 +1,10 @@
+.Nav_bar_container{
+    min-height: 10vh;
+    background-color: var(--background-color-nav);
+    .text_color_nav{
+        color: var(--nav-bar-foont-color);
+    }
+    #collapsible-nav-dropdown{
+        color: var(--nav-bar-foont-color);
+    }
+}

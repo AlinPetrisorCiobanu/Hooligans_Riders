@@ -1,0 +1,69 @@
+.container_card {
+  width: 50vw;
+  justify-content: center;
+  border: 4px solid black;
+  border-radius: 25px;
+  .custom_card {
+    padding: 15px;
+    width: 50vw;
+  }
+  .custom_data_card {
+    color: black;
+  }
+
+  .container_div_edit_profiles {
+    justify-content: center;
+    height: 78vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    .errors {
+      background-color: var(--error-color);
+    }
+    .no_error {
+      background-color: var(--input-color);
+    }
+  }
+}
+.espaciador_div_top{
+  padding-top: 10vh;
+}
+.Contianer_div_Profiles {
+  justify-content: center;
+  height: 80vh;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: center;
+  margin-top: 10vh;
+  padding-top: 45vh;
+  .Table_Profile_Custom {
+    width: 100vw;
+    border: 1px solid black;
+    .border_table {
+      border: 1px solid black;
+    }
+    thead {
+      border: 1px solid black;
+
+      th {
+        font-size: 1.7rem;
+      }
+    }
+
+    tbody {
+      tr {
+        border: 1px solid black;
+
+        td {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
